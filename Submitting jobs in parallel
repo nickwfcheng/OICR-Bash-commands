@@ -1,0 +1,3 @@
+#h_stack keep at 32m, -pe smp 4 runs 4 nodes in parallel
+qsub -l h_vmem=16g -l h_stack=32m -pe smp 4 ./script.sh
+ 
