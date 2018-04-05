@@ -1,0 +1,1 @@
+rsync -abz file.txt nwc17@briaree1.calculquebec.ca:/exec5/GROUP/awadalla/awadalla/awadalla_group/NickC/ctDNA_panel
