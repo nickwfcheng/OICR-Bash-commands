@@ -1,0 +1,2 @@
+source /oicr/local/Modules/default/init/bash;
+module load R/3.4.0;
