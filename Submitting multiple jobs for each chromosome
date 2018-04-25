@@ -1,0 +1,11 @@
+#Duplicating R script 
+nano chr1.R
+for i in {2..22}; do sed s/chr1/chr${i}/g chr1.R  > chr$i.R ; done
+sed s/chr1/chrX/g chr1.R  > chrX.R
+sed s/chr1/chrY/g chr1.R  > chrY.R
+
+#Duplicating Bash script
+nano brca_chr1.sh
+for i in {2..22}; do sed s/chr1/chr${i}/g brca_chr1.sh  > brca_chr$i.sh ; done
+sed s/chr1/chrX/g brca_chr1.sh > brca_chrX.sh
+sed s/chr1/chrY/g brca_chr1.sh > brca_chrY.sh
